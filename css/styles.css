@@ -112,7 +112,7 @@ img{
 
 /* Media Query for Mobile */
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 480px){
     body{
         font-size: 15px;
     }
