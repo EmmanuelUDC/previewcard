@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/EmmanuelUDC/previewcard](https://your-solution-url.com)
+- Live Site URL: [https://emmanueludc.github.io/previewcard/](https://your-live-site-url.com)
 
 ## My process
 
@@ -54,7 +54,6 @@ CSS Grid will be an area I'll explore on subsequent projects so as to develop my
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@emmy_udc](https://www.twitter.com/yourusername)
 
 
