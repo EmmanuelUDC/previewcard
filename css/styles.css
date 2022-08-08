@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lexend Deca', 'Big Shoulders Display', sans-serif ;
+    font-size: 15px;
+}
+
+.header{
+    color:hsl(0, 0%, 95%);
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.header h1{
+    font-size: 30px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+}
+
+.car-info{
+    color:hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 5rem;
+    font-size: 14px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    line-height: 1.3rem;
+}
+
+
+a{
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+}
+
+.orange a:hover,
+.dark-cyan a:hover,
+.very-dark-cyan a:hover {
+    color: hsl(0, 0%, 95%);
+    border: 1.5px solid hsl(0, 0%, 95%);
+    background-color: transparent;
+}
+
+img{
+    width: 50px;
+}
+
+.border-left{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.border-right{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 760px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.card-container .column {
+    width: 33.3%;
+    padding: 50px 40px;
+}
+
+.orange{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.orange a{
+    color: hsl(31, 77%, 52%);
+}
+
+.dark-cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan a{
+    color: hsl(184, 100%, 22%);
+}
+
+.very-dark-cyan{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.very-dark-cyan a{
+    color: hsl(179, 100%, 13%);
+}
+
+.car-icon{
+    margin-bottom: 40px;
+}
+
+/* Media Query for Mobile */
+
+@media only screen and (max-width: 375px){
+    body{
+        font-size: 15px;
+    }
+
+    .card-container{
+        width: 345px;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .card-container .column{
+        width: 100%;
+        padding: 50px 50px;
+        height: auto;
+    }
+
+    .car-icon {
+        margin-bottom: 30px;
+    }
+
+    .border-left{
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .border-right {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    h1,
+    p {
+        padding: 10px;
+    }
+
+    .header h1{
+        font-size: 35px;
+    }
+
+    img{
+        width: 70px;
+    }
+
+    a{
+        font-size: 16px;
+        padding: 15px 25px;
+        border-radius: 25px;
+    }
+
+    .car-info{
+        font-size: 16px;
+        margin-bottom: 3rem;
+        line-height: 1.3rem;
+    }
+
+    .learn-more{
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+}
