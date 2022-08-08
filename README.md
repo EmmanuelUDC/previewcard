@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/EmmanuelUDC/previewcard)
-- Live Site URL: [](https://emmanueludc.github.io/previewcard/)
+- Solution URL: [https://github.com/EmmanuelUDC/previewcard](https://github.com/EmmanuelUDC/previewcard)
+- Live Site URL: [https://emmanueludc.github.io/previewcard/](https://emmanueludc.github.io/previewcard/)
 
 ## My process
 
